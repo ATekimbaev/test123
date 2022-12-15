@@ -27,6 +27,7 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('AppBar'),
+        leading: Text('asdasdasd'),
       ),
       body: BGWidget(
         child: Center(
